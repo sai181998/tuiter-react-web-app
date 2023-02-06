@@ -1,6 +1,3 @@
-.wd-body {
-    background-color: black;
-}
 .wd-maincontent{
 
     display:flex;
@@ -134,7 +131,7 @@
 }
 .wd-tuiticon a{
     color: lightgray;
-    text-decoration: none;
+    
 }
 .wd-tuiticon .heart {
     color: red;

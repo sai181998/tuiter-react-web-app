@@ -10,12 +10,8 @@ function App() {
   return (
     <BrowserRouter>
     <div className="container">
-       {/* <h1>Hello World!</h1> */}
-       {/* <HelloWorld/>
-       <Labs/>
-       <Tuiter/> */}
        <Routes>
-          <Route index
+          <Route path="/*"
                  element={<Labs/>}/>
           <Route path="/hello"
                  element={<HelloWorld/>}/>
